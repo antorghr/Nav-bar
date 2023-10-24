@@ -1,0 +1,35 @@
+body {
+  background-color: lightblue;
+    color: yellow;
+}
+/* styling the list of items in the nav bar */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0;
+}
+/* styling the space of each item*/
+nav li {
+    list-style:none;
+    background-color: yellow;
+    color: lightblue;
+    margin:0;
+    flex:1;
+    min-width:200px;
+    text-align: center;
+    display:flex;
+}
+/* styling the link, both unvisited and visited */
+nav a, nav a:visited {
+   text-decoration:none;
+    width:100%;
+    padding:8px 0;
+    color: lightblue;
+}
+/*Hovering over a link*/
+nav a:hover, nav a.active {
+    color: yellow;
+    background-color: lightblue;
+}
+
